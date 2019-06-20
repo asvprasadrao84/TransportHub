@@ -1,0 +1,38 @@
+<html>
+        <head><!--
+            <title>City</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    -->   
+    <%include partials/includeHeader.ejs %>
+</head>
+<body>
+       <!--  <div class="container-fluid bg-1"> -->
+            <div class="jumbotron bg-1"> 
+<h1 align="center" class="bg-primary"> Transport Hub - Sign In</h1>
+<br><br><br>
+<form method="GET" action="/toLanding">
+    <p align="center">
+<input type="text" required name="nm" placeholder="username"/>
+    </p>
+
+    <p align="center">
+       <small>Please login to use the Transport Hub</small>
+    </p>
+    <br>
+<p  align="center" > 
+<button type="submit" class="btn btn-success">SIGN - IN</button>
+</p>
+
+
+<BR><BR><BR><BR> 
+</form>
+
+</div>
+<%include partials/includeFooter.ejs %>
+</body>
+
+</html>
