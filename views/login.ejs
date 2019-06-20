@@ -11,22 +11,24 @@
 </head>
 <body>
        <!--  <div class="container-fluid bg-1"> -->
-            <div class="jumbotron bg-1"> 
+            <div class="jumbotron bg-1 text-center"> 
 <h1 align="center" class="bg-primary"> Transport Hub - Sign In</h1>
 <br><br><br>
-<form method="GET" action="/toLanding">
-    <p align="center">
-<input type="text" required name="nm" placeholder="username"/>
-    </p>
+<form method="GET" action="/toLanding" class="form-inline">
+    <div class="input-group">
+          <!--  <p align="center"> -->
+<input type="text" required name="nm" placeholder="username" class="form-control" size="50" />
+<!--</p>-->
 
-    <p align="center">
+     <!--  <p align="center"> -->
        <small>Please login to use the Transport Hub</small>
-    </p>
-    <br>
-<p  align="center" > 
-<button type="submit" class="btn btn-success">SIGN - IN</button>
-</p>
+  <!--</p>-->
 
+    <br>
+ <!--  <p align="center"> -->
+<button type="submit" class="btn btn-success">SIGN - IN</button>
+<!--</p>-->
+</div>
 
 <BR><BR><BR><BR> 
 </form>
